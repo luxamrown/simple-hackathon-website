@@ -23,6 +23,21 @@ input {
     background: none;
 }
 
+select {
+    color: white;
+    background-color: #000209;
+    border: none !important;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid #97c9ba80;
+    outline: none !important;
+    background: none;
+}
+
+option {
+    color: white;
+    background-color: #000209;
+}
+
 input:focus {
     border-bottom: 1px solid #97c9ba;
 }
@@ -98,9 +113,27 @@ textarea:focus {
     border: none;
     border-radius: 20px;
     min-width: 100%;
-    min-height: 70px;
+    min-height: 35px;
     color: #000209;
     background-color: #B6EADA;
+}
+
+.button-register {
+    border: 1px solid #B6EADA !important;
+    transition: 0.3s ease-in-out;
+    padding: 0px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    min-width: 100%;
+    min-height: 35px;
+    color: #B6EADA;
+    background-color: transparent;
+}
+
+.button-register:hover{
+    background-color: #B6EADA;
+    color: #000209;
 }
 
 .button:hover {

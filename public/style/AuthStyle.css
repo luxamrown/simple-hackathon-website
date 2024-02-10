@@ -1,0 +1,78 @@
+section {
+    background: radial-gradient(#1C1C1D, #000209);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: default;
+}
+
+
+.login { 
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 2px #B6EADA);
+    padding: 50px 50px;
+    border: 1px solid #B6EADA;
+    background-color: #070A12;
+    margin: auto;
+    min-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field {
+    transition: 0.1s ease-in-out;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    border: none !important;
+}
+
+svg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    min-width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    gap: 5px;
+    border-bottom: 1px solid #B6EADA;
+}
+
+.button-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}

@@ -50,4 +50,4 @@ document.getElementById("faq-card3").addEventListener("click", function() {
   }
 })
 
-// code jelek awokwok
+// code jelek wkwk

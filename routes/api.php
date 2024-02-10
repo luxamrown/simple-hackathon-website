@@ -20,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::POST('/login', [AuthController::class,'login'])->name('login');
+Route::POST('/register', [AuthController::class,'register'])->name('register');
+

@@ -118,7 +118,7 @@ textarea:focus {
     background-color: #B6EADA;
 }
 
-.button-register {
+.button-outline {
     border: 1px solid #B6EADA !important;
     transition: 0.3s ease-in-out;
     padding: 0px 20px;
@@ -126,12 +126,13 @@ textarea:focus {
     border: none;
     border-radius: 20px;
     min-width: 100%;
+    max-width: 100%;
     min-height: 35px;
     color: #B6EADA;
     background-color: transparent;
 }
 
-.button-register:hover{
+.button-outline:hover{
     background-color: #B6EADA;
     color: #000209;
 }
@@ -139,3 +140,8 @@ textarea:focus {
 .button:hover {
     background-color: #97c9ba;
 }
+
+.section-title {
+    margin: auto;
+}
+

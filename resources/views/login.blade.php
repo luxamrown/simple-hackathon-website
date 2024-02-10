@@ -44,7 +44,7 @@
 
                     <div  style="width: 100%; margin: auto">                
                         <a href="/register">
-                            <button type="button" class="button-register"><h1 class="fira-sans-bold">Register</h1></button>
+                            <button type="button" class="button-outline"><h1 class="fira-sans-bold">Register</h1></button>
                         </a>
                     </div>
                 </div>

@@ -297,7 +297,7 @@
                 Contact Us
             </h1>
 
-            <form class="contactus-fields">
+            <form id="form-contactus" class="contactus-fields">
                 <div class="contactus-field">
                     <span class="fira-sans-regular color-neon font-regular">Name</span>
     

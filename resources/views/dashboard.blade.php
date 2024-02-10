@@ -14,43 +14,45 @@
         <div class="section-container">
             <div class="section-title">
                 <h1 class="fira-sans-bold color-neon font-xl">Dashboard</h1>
+                <button id="logout-button" type="button" class="button-outline fira-sans-regular color-neon font-regular">Log out</button>
             </div>
     
             <div class="section-div">
-                <h1 class="fira-sans-bold color-neon font-xl">Hello </h1>
+                <h1 class="fira-sans-bold color-neon font-xl">Hello, <span id="hello-team"></span></h1>
                 
+        
                 <div class="profile-content">
                     <div class="profile-details">
                         <h1 class="fira-sans-regular color-neon font-large">Profile Details </h1>
                     
                         <div class="detail-desc">
                             <p class="fira-sans-regular color-neon">Team Name</p>
-                            <p class="fira-sans-light color-neon">Lol</p>
+                            <p id="team-name-dashboard" class="fira-sans-light color-neon"></p>
                         </div>
 
                         <div class="detail-desc">
                             <p class="fira-sans-regular color-neon">Full Name</p>
-                            <p class="fira-sans-light color-neon">Luxamrown</p>
+                            <p id="fullname-dashboard" class="fira-sans-light color-neon"></p>
                         </div>
 
                         <div class="detail-desc">
                             <p class="fira-sans-regular color-neon">Email</p>
-                            <p class="fira-sans-light color-neon">luxamrownn@gmail.coasdddddddddm</p>
+                            <p id="email-dashboard" class="fira-sans-light color-neon"></p>
                         </div>
 
                         <div class="detail-desc">
                             <p class="fira-sans-regular color-neon">Date of Birth</p>
-                            <p class="fira-sans-light color-neon">05-12-2003</p>
+                            <p id="birth-dashboard" class="fira-sans-light color-neon"></p>
                         </div>
 
                         <div class="detail-desc">
                             <p class="fira-sans-regular color-neon">Line ID</p>
-                            <p class="fira-sans-light color-neon">luxam</p>
+                            <p id="lineid-dashboard" class="fira-sans-light color-neon"></p>
                         </div>
 
                         <div class="detail-desc">
                             <p class="fira-sans-regular color-neon">Phone Number</p>
-                            <p class="fira-sans-light color-neon">08080808080</p>
+                            <p id="phone-dashboard" class="fira-sans-light color-neon"></p>
                         </div>
                     </div>
 
@@ -59,7 +61,8 @@
                             <div class="file">
                                 <p class="fira-sans-regular color-neon">CV</p>
                                 <div class="file-photo">
-                                    <p class="fira-sans-light color-neon">Not Uploaded</p>
+                                    <p id="img-cv-status" class="fira-sans-light color-neon">Not Uploaded</p>
+                                    <img id="img-cv" style="object-fit: contain" src="" alt="">
                                 </div>
                                 <label for="cv-upload" class="button-outline"><h1 class="fira-sans-light font-small">Upload File</h1></label>
                                 <input id="cv-upload" name="cv" type="file" accept="image/png, image/jpeg">
@@ -68,13 +71,14 @@
                             <div class="file">
                                 <p class="fira-sans-regular color-neon">Proof of Payment</p>
                                 <div class="file-photo">
-                                    <img style="object-fit: contain" src="https://placehold.co/600x400" alt="">
+                                    <p id="img-pay-status" class="fira-sans-light color-neon">Not Uploaded</p>
+                                    <img id="img-payment" style="object-fit: contain" src="" alt="">
                                 </div>
                                 <label for="pay-upload" class="button-outline"><h1 class="fira-sans-light font-small">Upload File</h1></label>
                                 <input id="pay-upload" name="payment" type="file" accept="image/png, image/jpeg">
                             </div>
                         </div>
-                        <button type="button" class="button-outline"><h1 class="fira-sans-regular">Save File</h1></button>
+                        <button id="save-file-button" type="button" class="button-outline fira-sans-regular color-neon font-regular">Save File</button>
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@
         <div class="login">
             <h1 class="fira-sans-bold color-neon font-xl">Sign In</h1>
             
-            <form action="">
+            <form id="form-login">
                 <div class="form">
                     <div class="field" id="field_login_email">
                         <p class="fira-sans-light color-neon font-regular">Email</p>
@@ -35,11 +35,14 @@
                             <input placeholder="Enter Password" id="input_login_password" required class="fira-sans-light color-neon font-regular" type="password">
                         </div>
                     </div>
+
+                    <p id="error-login" class="error-field fira-sans-light color-neon font-small"></p>
+
                 </div>
 
                 <div class="button-auth">
                     <div id="login" style="width: 100%; margin: auto">
-                        <button type="submit" class="button"><h1 class="fira-sans-bold color-dark">Sign In</h1></button>
+                        <button id="login-text-button" type="submit" class="button fira-sans-bold color-dark font-regular">Sign In</button>
                     </div>
 
                     <div  style="width: 100%; margin: auto">                

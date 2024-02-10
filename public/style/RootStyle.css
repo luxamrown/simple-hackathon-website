@@ -77,6 +77,11 @@ textarea:focus {
     font-style: normal;
 }
 
+.error-field {
+    color: red !important;
+    text-align: left !important;
+}
+
 .color-neon {
     color: #B6EADA;
 }

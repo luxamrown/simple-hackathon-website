@@ -24,5 +24,7 @@ Route::POST('/login', [AuthController::class,'login'])->name('login');
 Route::POST('/register', [AuthController::class,'register'])->name('register');
 
 Route::POST('/dashboard', [DashboardController::class,'getGroupData'])->name('getGroupData');
+Route::POST('/savefile', [DashboardController::class,'saveFile'])->name('saveFile');
+
 
 

@@ -51,3 +51,7 @@ document.getElementById("faq-card3").addEventListener("click", function() {
 })
 
 // code jelek wkwk
+
+document.getElementById("form-contactus").addEventListener("submit", () =>{
+  alert("Message Send Successfuly, Thank You!")
+})

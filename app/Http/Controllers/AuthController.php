@@ -23,7 +23,8 @@ class AuthController extends Controller
                 $success = true;
                 $responseData = [
                     'isAdmin'=>$authData->is_admin ? true : false,
-                    'ok'=>true
+                    'ok'=>true,
+                    "id" => $authData->id,
                 ];
 
             } else {

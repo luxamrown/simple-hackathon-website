@@ -10,6 +10,7 @@ document.getElementById("field_login_password").addEventListener("click", functi
     antoher.style.opacity = "0.5"
 })
   
+// code jelek wkwk
 
 const form = document.getElementById("form-login")
 
@@ -51,4 +52,3 @@ form.addEventListener("submit", (e) => {
 })
 
 
-// code jelek wkwk

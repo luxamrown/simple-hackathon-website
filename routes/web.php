@@ -28,3 +28,8 @@ Route::get('/register', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+
+Route::get('/admin', function () {
+    return view('admin');
+});

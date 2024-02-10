@@ -67,6 +67,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ### Ciluk baa
 
+## Run
+
+1. `composer install`
+2. `cp .env.example .env`
+3. `php artisan key:generate`
+4. `php artisan serve`
 
 <!-- ![screely-1707494882944](https://github.com/luxamrown/simple-hackathon-website/assets/63460549/9575bc77-0349-47bd-80fe-923fec873a43)
 

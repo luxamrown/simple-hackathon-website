@@ -81,6 +81,15 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 3. `php artisan db:seed` 
 4. `php artisan serve`
 
+    #### Dummy account
+    email: admin@gmail.com <br>
+    password: admin123
+
+    email: user@gmail.com <br>
+    password: user123
+
+### *Best on FHD 1920x1080(not responsive yet)
+
 
 <!-- ![screely-1707494882944](https://github.com/luxamrown/simple-hackathon-website/assets/63460549/9575bc77-0349-47bd-80fe-923fec873a43)
 

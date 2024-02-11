@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
             GroupSeeder::class,
             GroupDataSeeder::class,
             AdminSeeder::class,
+            UserSeeder::class
         ]);
     }
 }

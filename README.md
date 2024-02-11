@@ -65,7 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
 
-### Ciluk baa
+### Front end and Back End
 
 ## Run
 
@@ -73,6 +73,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 2. `cp .env.example .env`
 3. `php artisan key:generate`
 4. `php artisan serve`
+
+### Run with db connection
+
+1. Add Database env in .env
+2. `php artisan migrate:fresh`
+3. `php artisan db:seed` 
+4. `php artisan serve`
+
 
 <!-- ![screely-1707494882944](https://github.com/luxamrown/simple-hackathon-website/assets/63460549/9575bc77-0349-47bd-80fe-923fec873a43)
 
